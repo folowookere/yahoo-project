@@ -1,2 +1,0 @@
-# yahoo-project
-Yahoo pages
