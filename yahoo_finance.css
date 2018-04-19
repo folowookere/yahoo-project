@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+#custom-submit-btn {
+	background-color: rgba(227,55,0,1.00);
+}
+
+.custom-welcome {
+	font-family:montserrat,Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-transform: uppercase;
+}
