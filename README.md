@@ -1,1 +1,1 @@
-These are my Yahoo Finances project files.
+These are my Yahoo Finance project files.

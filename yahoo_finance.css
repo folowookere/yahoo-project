@@ -4,7 +4,38 @@
 	background-color: rgba(227,55,0,1.00);
 }
 
+.ul-no-style { 
+    list-style-type: none; 
+    margin:0;
+    padding:0;
+}
+
 .custom-welcome {
-	font-family:montserrat,Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: Montserrat, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	text-transform: uppercase;
 }
+
+.container-overlay {
+    position: relative;
+    text-align: center;
+    transition: all .2s ease-in-out;
+   
+}
+
+.container-overlay:hover {
+    position: relative;
+    text-align: center;
+    transform: scale(1.01);
+}
+	
+.centered-text { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight:bold;
+    color:#fff;
+    filter: drop-shadow(20px 20px 20px #000);
+}
+
