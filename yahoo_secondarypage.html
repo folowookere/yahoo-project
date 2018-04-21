@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<!-- put doctype in caps-->
 <html>
 <head>
 <meta charset="UTF-8">
@@ -29,7 +30,8 @@
          </div> 
          </div>
         </nav> 
-        
+		<!-- Minor changes to spacing and indentation to connect opening and closing rows. ie: indented to mark difference visually between th, tr, td -->  
+		  
 	<div class="container">
 	  <div class="row">
 	  	<header><div class="container-overlay">
@@ -44,159 +46,167 @@
 	  	<table class="table table-sm table-striped table-hover table-bordered" style="width:100%">
 			<thead>
 			 <tr>
-    <th> <input type="checkbox"> Symbol</th>
-    <th>Last Price</th>
-    <th>Change</th>
-    <th>% Chg</th>
-	<th>Volume</th>
-	<th>52 Week Low</th>
-	<th>52 Week High</th>
-	<th>Market Cap</th>
+         <th> <input type="checkbox"> Symbol</th>
+    		 <th>Last Price</th>
+         <th>Change</th>
+         <th>% Chg</th>
+	       <th>Volume</th>
+	       <th>52 Week Low</th>
+	       <th>52 Week High</th>
+	       <th>Market Cap</th>
+      </tr>
+	  </thead>
 	
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <th style="color:#188fff;"><input type="checkbox"> INTC</th>
-      <td><b>53.54</b></td>
-      <td style="color:green;">+1.14</td>
-      <td style="color:green;">+2.18%</td>
-	  <td>USD</td>
-	  <td>33.23</td>
-	  <td>53.78</td>
-	  <td>250.48B</td>
+      	<td><b>53.54</b></td>
+      	<td style="color:green;">+1.14</td>
+      	<td style="color:green;">+2.18%</td>
+	  		<td>USD</td>
+	  		<td>33.23</td>
+	  		<td>53.78</td>
+	  		<td>250.48B</td>
+		</tr>
 		
-    </tr>
 	   <tr>
       <th style="color:#188fff;"><input type="checkbox"> AOL-U.TI</th>
-      <td><b>79.00</b></td>
-      <td style="color:green;">+0.50</td>
-      <td style="color:green;">+0.64%</td>
-	  <td>EUR</td>
-	  <td>0</td>
-	  <td>0</td>
-	  <td>-</td>
-		
-    </tr> <tr>
+      	<td><b>79.00</b></td>
+      	<td style="color:green;">+0.50</td>
+      	<td style="color:green;">+0.64%</td>
+	  		<td>EUR</td>
+	  		<td>0</td>
+	  		<td>0</td>
+				<td>-</td>
+		 </tr>
+		<!-- The closing table rows were next to the opening of the next and not attached to the group, 
+			for over the top clarity I moved the closing tr's up and attached to their group and the opening tr's down one space -->
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> NFLX</th>
-      <td><b>336.06</b></td>
-      <td style="color:green;">+28.28</td>
-      <td style="color:green;">+9.19%</td>
-	  <td>USD</td>
-	  <td>138.66</td>
-	  <td>338.62</td>
-	  <td>145.83B</td>
+      	<td><b>336.06</b></td>
+      	<td style="color:green;">+28.28</td>
+      	<td style="color:green;">+9.19%</td>
+	  		<td>USD</td>
+	  		<td>138.66</td>
+	  		<td>338.62</td>
+	  		<td>145.83B</td>
+		</tr> 
 		
-    </tr> <tr>
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> MSFT</th>
-      <td><b>96.07</b></td>
-      <td style="color:green;">+1.90</td>
-      <td style="color:green;">+2.02%</td>
-	  <td>USD</td>
-	  <td>64.89</td>
-	  <td>97.24</td>
-	  <td>739.72B</td>
-		
-    </tr> <tr>
+      	<td><b>96.07</b></td>
+      	<td style="color:green;">+1.90</td>
+      	<td style="color:green;">+2.02%</td>
+	  		<td>USD</td>
+	  		<td>64.89</td>
+	  		<td>97.24</td>
+	  		<td>739.72B</td>
+		</tr> 
+
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> AMZN</th>
-      <td><b>1503.83</b></td>
-      <td style="color:green;">+10.71</td>
-      <td style="color:green;">+4.32%</td>
-	  <td>USD</td>
-	  <td>33.23</td>
-	  <td>896.29</td>
-	  <td>728.01B</td>
-		
-    </tr> <tr>
+      	<td><b>1503.83</b></td>
+      	<td style="color:green;">+10.71</td>
+      	<td style="color:green;">+4.32%</td>
+	  		<td>USD</td>
+	  		<td>33.23</td>
+	  		<td>896.29</td>
+	  		<td>728.01B</td>
+		</tr> 
+
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> BAC</th>
-      <td><b>30.04</b></td>
-      <td style="color:green;">+0.11</td>
-      <td style="color:green;">+0.37%</td>
-	  <td>USD</td>
-	  <td>22.07</td>
-	  <td>33.05</td>
-	  <td>307.13B</td>
+      	<td><b>30.04</b></td>
+      	<td style="color:green;">+0.11</td>
+      	<td style="color:green;">+0.37%</td>
+	  		<td>USD</td>
+	  		<td>22.07</td>
+	  		<td>33.05</td>
+	  		<td>307.13B</td>
+		</tr> 
 		
-    </tr> <tr>
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> ADBE</th>
-      <td><b>231.16</b></td>
-      <td style="color:green;">+4.64</td>
-      <td style="color:green;">+2.05%</td>
-	  <td>USD</td>
-	  <td>129.48</td>
-	  <td>232.21</td>
-	  <td>113.84B</td>
-		
-		
-    </tr> <tr>
+      	<td><b>231.16</b></td>
+      	<td style="color:green;">+4.64</td>
+      	<td style="color:green;">+2.05%</td>
+	  		<td>USD</td>
+	  		<td>129.48</td>
+	 		  <td>232.21</td>
+	  		<td>113.84B</td>
+		</tr> 
+
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> TWTR</th>
-      <td><b>31.84</b></td>
-      <td style="color:green;">+3.26</td>
-      <td style="color:green;">+11.41%</td>
-	  <td>USD</td>
-	  <td>14.12</td>
-	  <td>36.80</td>
-	  <td>23.88B</td>
+      	<td><b>31.84</b></td>
+      	<td style="color:green;">+3.26</td>
+     		<td style="color:green;">+11.41%</td>
+	  		<td>USD</td>
+	  		<td>14.12</td>
+	  		<td>36.80</td>
+	  		<td>23.88B</td>
+		</tr> 
 		
-		
-    </tr> <tr>
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> FB</th>
-      <td><b>168.66</b></td>
-      <td style="color:green;">+3.83</td>
-      <td style="color:green;">+2.32%</td>
-	  <td>USD</td>
-	  <td>137.60</td>
-	  <td>195.32</td>
-	  <td>489.01B</td>
-		
-		
-    </tr> <tr>
+      	<td><b>168.66</b></td>
+      	<td style="color:green;">+3.83</td>
+      	<td style="color:green;">+2.32%</td>
+	  		<td>USD</td>
+	  		<td>137.60</td>
+	  		<td>195.32</td>
+	  		<td>489.01B</td>
+		</tr> 
+
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> SPOTIFY</th>
-      <td>-</td>
-      <td>-</td>
-      <td>-</td>
-	  <td>-</td>
-	  <td>-</td>
-	  <td>-</td>
-	  <td>-</td>
-    </tr> <tr>
+      	<td>-</td>
+      	<td>-</td>
+      	<td>-</td>
+	    	<td>-</td>
+	    	<td>-</td>
+	    	<td>-</td>
+	    <	td>-</td>
+		</tr> 
+		
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> DVMT</th>
-      <td><b>75.39</b></td>
-      <td style="color:green;">+1.04</td>
-      <td style="color:green;">+1.40%</td>
-	  <td>USD</td>
-	  <td>59.93</td>
-	  <td>92.40</td>
-	  <td>58.65B</td>
+      	<td><b>75.39</b></td>
+      	<td style="color:green;">+1.04</td>
+      	<td style="color:green;">+1.40%</td>
+	  		<td>USD</td>
+	  		<td>59.93</td>
+	  		<td>92.40</td>
+	  		<td>58.65B</td>
+		</tr> 
 		
-    </tr> <tr>
+		<tr>
       <th style="color:#188fff;"><input type="checkbox"> NKE</th>
-      <td><b>67.51</b></td>
-      <td style="color:green;">+0.45</td>
-      <td style="color:green;">+0.67%</td>
-	  <td>USD</td>
-	  <td>50.35</td>
-	  <td>70.25</td>
-	  <td>108.81B</td>
+      	<td><b>67.51</b></td>
+      	<td style="color:green;">+0.45</td>
+      	<td style="color:green;">+0.67%</td>
+	  		<td>USD</td>
+	  		<td>50.35</td>
+	  		<td>70.25</td>
+	  		<td>108.81B</td>
+		</tr>
 		
-    </tr>
 	   <tr>
       <th style="color:#188fff;"><input type="checkbox"> AAPL</th>
-      <td><b>178.24</b></td>
-      <td style="color:green;">+2.42</td>
-      <td style="color:green;">+1.38%</td>
-	  <td>USD</td>
-	  <td>140.45</td>
-	  <td>183.50</td>
-	  <td>904.39B</td>
+      	<td><b>178.24</b></td>
+      	<td style="color:green;">+2.42</td>
+      	<td style="color:green;">+1.38%</td>
+	  		<td>USD</td>
+	  		<td>140.45</td>
+	  		<td>183.50</td>
+	 		  <td>904.39B</td>
+		</tr>
 		
-    </tr>
 	  </tbody>
 		</table>
 		</div>
 		</div>
 			<div class="col-2"></div>
-
 	</div>
 	<div class="row text-center">
 	<div class="col-12" style="margin-bottom:30px;">
@@ -204,8 +214,8 @@
 	  </div>
 	</div>
 </div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
